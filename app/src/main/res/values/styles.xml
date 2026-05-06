@@ -1,0 +1,25 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="CalcButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="OperatorButton" parent="CalcButton">
+        <item name="android:backgroundTint">#FF9800</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="EqualButton" parent="CalcButton">
+        <item name="android:backgroundTint">#4CAF50</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="ClearButton" parent="CalcButton">
+        <item name="android:backgroundTint">#F44336</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+</resources>

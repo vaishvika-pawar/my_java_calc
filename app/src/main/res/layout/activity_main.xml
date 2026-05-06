@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Display -->
+    <!-- Expression -->
+    <TextView
+        android:id="@+id/expressionView"
+        android:text=""
+        android:textSize="18sp"
+        android:gravity="end"
+        android:textColor="#888888"
+        android:maxLines="1"
+        android:ellipsize="start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Result -->
+    <TextView
+        android:id="@+id/resultView"
+        android:text="0"
+        android:textSize="40sp"
+        android:gravity="end"
+        android:maxLines="1"
+        android:ellipsize="start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Buttons Grid -->
+    <GridLayout
+        android:id="@+id/buttonGrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:useDefaultMargins="true">
+
+        <!-- Use same buttons but add style -->
+
+        <Button style="@style/CalcButton" android:text="7"/>
+        <Button style="@style/CalcButton" android:text="8"/>
+        <Button style="@style/CalcButton" android:text="9"/>
+        <Button style="@style/OperatorButton" android:text="/"/>
+
+        <Button style="@style/CalcButton" android:text="4"/>
+        <Button style="@style/CalcButton" android:text="5"/>
+        <Button style="@style/CalcButton" android:text="6"/>
+        <Button style="@style/OperatorButton" android:text="*"/>
+
+        <Button style="@style/CalcButton" android:text="1"/>
+        <Button style="@style/CalcButton" android:text="2"/>
+        <Button style="@style/CalcButton" android:text="3"/>
+        <Button style="@style/OperatorButton" android:text="-"/>
+
+        <Button style="@style/CalcButton" android:text="0"/>
+        <Button style="@style/CalcButton" android:text="."/>
+        <Button style="@style/EqualButton" android:text="="/>
+        <Button style="@style/OperatorButton" android:text="+"/>
+
+        <Button
+            style="@style/ClearButton"
+            android:text="⌫"
+            android:layout_columnSpan="2"/>
+
+    </GridLayout>
+
+</LinearLayout>
