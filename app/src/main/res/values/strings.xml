@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">my_java_calc</string>
+    <string name="backspace">⌫</string>
+    <string name="zero">0</string>
+    <string name="additionSymbol">+</string>
+    <string name="equalToSymbol">=</string>
+    <string name="decimalPoint">.</string>
+    <string name="subtractionSymbol">-</string>
+    <string name="three">3</string>
+    <string name="two">2</string>
+    <string name="one">1</string>
+    <string name="multiplicationSymbol">*</string>
+    <string name="six">6</string>
+    <string name="five">5</string>
+    <string name="four">4</string>
+    <string name="divisionSymbol">/</string>
+    <string name="nine">9</string>
+    <string name="eight">8</string>
+    <string name="seven">7</string>
 </resources>

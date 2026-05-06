@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         expressionView = findViewById(R.id.expressionView);
         resultView = findViewById(R.id.resultView);
-        GridLayout grid = (GridLayout) ((GridLayout) ((android.view.ViewGroup) display.getParent()).getChildAt(1));
+        GridLayout grid = findViewById(R.id.buttonGrid);
 
         for (int i = 0; i < grid.getChildCount(); i++) {
             if (grid.getChildAt(i) instanceof Button) {

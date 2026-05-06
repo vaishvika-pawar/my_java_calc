@@ -22,7 +22,7 @@
     <!-- Result -->
     <TextView
         android:id="@+id/resultView"
-        android:text="0"
+        android:text="@string/zero"
         android:textSize="40sp"
         android:gravity="end"
         android:maxLines="1"
@@ -40,30 +40,30 @@
 
         <!-- Use same buttons but add style -->
 
-        <Button style="@style/CalcButton" android:text="7"/>
-        <Button style="@style/CalcButton" android:text="8"/>
-        <Button style="@style/CalcButton" android:text="9"/>
-        <Button style="@style/OperatorButton" android:text="/"/>
+        <Button style="@style/CalcButton" android:text="@string/seven"/>
+        <Button style="@style/CalcButton" android:text="@string/eight"/>
+        <Button style="@style/CalcButton" android:text="@string/nine"/>
+        <Button style="@style/OperatorButton" android:text="@string/divisionSymbol"/>
 
-        <Button style="@style/CalcButton" android:text="4"/>
-        <Button style="@style/CalcButton" android:text="5"/>
-        <Button style="@style/CalcButton" android:text="6"/>
-        <Button style="@style/OperatorButton" android:text="*"/>
+        <Button style="@style/CalcButton" android:text="@string/four"/>
+        <Button style="@style/CalcButton" android:text="@string/five"/>
+        <Button style="@style/CalcButton" android:text="@string/six"/>
+        <Button style="@style/OperatorButton" android:text="@string/multiplicationSymbol"/>
 
-        <Button style="@style/CalcButton" android:text="1"/>
-        <Button style="@style/CalcButton" android:text="2"/>
-        <Button style="@style/CalcButton" android:text="3"/>
-        <Button style="@style/OperatorButton" android:text="-"/>
+        <Button style="@style/CalcButton" android:text="@string/one"/>
+        <Button style="@style/CalcButton" android:text="@string/two"/>
+        <Button style="@style/CalcButton" android:text="@string/three"/>
+        <Button style="@style/OperatorButton" android:text="@string/subtractionSymbol"/>
 
-        <Button style="@style/CalcButton" android:text="0"/>
-        <Button style="@style/CalcButton" android:text="."/>
-        <Button style="@style/EqualButton" android:text="="/>
-        <Button style="@style/OperatorButton" android:text="+"/>
+        <Button style="@style/CalcButton" android:text="@string/zero"/>
+        <Button style="@style/CalcButton" android:text="@string/decimalPoint"/>
+        <Button style="@style/EqualButton" android:text="@string/equalToSymbol"/>
+        <Button style="@style/OperatorButton" android:text="@string/additionSymbol"/>
 
         <Button
             style="@style/ClearButton"
-            android:text="⌫"
-            android:layout_columnSpan="2"/>
+            android:text="@string/backspace"
+            android:layout_columnSpan="4"/>
 
     </GridLayout>
 
